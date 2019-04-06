@@ -3,14 +3,14 @@ package com.playlist;
 import java.util.ArrayList;
 
 public class ApplicationPlaylist {
-
         public static void main(String[] args) {
+
         SubPlaylist subPlaylist = new SubPlaylist();
 
         ArrayList<String> nestedPlaylist = new ArrayList<String>();
         nestedPlaylist.add("Muzyka:The Beatles 'Lucy in the Sky With Diamonds'");
         nestedPlaylist.add("Muzyka:Rolling Stones 'Paint It Black' ");
-        nestedPlaylist.add("Muzyka: The Beatles 'Imagine'");
+        nestedPlaylist.add("Muzyka:The Beatles 'Imagine'");
         nestedPlaylist.add("Film: 'Pandora's Box'");
         nestedPlaylist.add("Muzyka:The Beatles 'Yesterday'");
 
