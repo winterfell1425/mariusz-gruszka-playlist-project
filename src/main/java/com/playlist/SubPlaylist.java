@@ -11,6 +11,7 @@ public class SubPlaylist {
         }
         return new ArrayList();
     }
+
     public ArrayList shufflePlaylist(ArrayList<String> listToPlay) {
         Collections.shuffle(listToPlay);
         return new ArrayList();
