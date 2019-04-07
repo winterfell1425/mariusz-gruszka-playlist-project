@@ -28,5 +28,4 @@ public class ApplicationPlaylist {
         //playlist.playRandomly(thePlaylist);
         //playlist.playSequentially(thePlaylist);
     }
-
 }
