@@ -7,15 +7,15 @@ public class ApplicationPlaylist {
 
         SubPlaylist subPlaylist = new SubPlaylist();
 
-        ArrayList<String> nestedPlaylist = new ArrayList<String>();
+        ArrayList<String> nestedPlaylist = new ArrayList<>();
         nestedPlaylist.add("Muzyka:The Beatles 'Lucy in the Sky With Diamonds'");
         nestedPlaylist.add("Muzyka:Rolling Stones 'Paint It Black' ");
         nestedPlaylist.add("Muzyka:The Beatles 'Imagine'");
         nestedPlaylist.add("Film: 'Pandora's Box'");
         nestedPlaylist.add("Muzyka:The Beatles 'Yesterday'");
 
-        subPlaylist.multiplyNestedPlaylist(nestedPlaylist);
-        subPlaylist.shufflePlaylist(nestedPlaylist);
+       //subPlaylist.multiplyNestedPlaylist(nestedPlaylist);
+       // subPlaylist.shufflePlaylist(nestedPlaylist);
 
         Playlist playlist = new Playlist();
 
@@ -25,8 +25,8 @@ public class ApplicationPlaylist {
         thePlaylist.add("Film: 'Casablanca'");
 
         playlist.playInLoop(thePlaylist);
-        // playlist.playRandomly(thePlaylist);
-        // playlist.playSequentially(thePlaylist);
+        //playlist.playRandomly(thePlaylist);
+        //playlist.playSequentially(thePlaylist);
     }
 
 }
